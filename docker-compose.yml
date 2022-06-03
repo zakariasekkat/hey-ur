@@ -1,0 +1,13 @@
+version: '2'
+services:
+  db:
+    image: postgres:9.4
+    volumes:
+      - psql94data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_DB: hey-url_development
+volumes:
+  psql94data:

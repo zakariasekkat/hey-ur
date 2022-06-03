@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "type": "urls",
+      "id": "1",
+      "attributes": {
+        "created-at": "2018-08-15T02:48:08.642Z",
+        "original-url": "www.fullstacklabs.co/angular-developers",
+        "url": "https://domain/fss1",
+        "clicks": 2
+      },
+      "relationships": {
+        "clicks": {
+          "data": [
+            {
+              "id": 1,
+              "type": "clicks"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "clicks",
+      "id": 1,
+      "attributes": {
+
+      }
+    }
+  ]
+}
+
